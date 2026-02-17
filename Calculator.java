@@ -20,7 +20,26 @@ public class Calculator {
 
 
 
+
         System.out.println("Thats all... ");
+
+
+
+
+
+
+        System.out.println("Enter first number:");
+        int num11 = scanner.nextInt();
+        System.out.println("Enter second number:");
+        int num22 = scanner.nextInt();
+        int product = num11 * num22;
+        int quotient = num11 / num22;
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+
+
+
+
         scanner.close();
 
 
