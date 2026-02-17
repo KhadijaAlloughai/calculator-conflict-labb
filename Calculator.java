@@ -24,15 +24,13 @@ public class Calculator {
 
 
         System.out.println("Enter first number:");
-        int num11 = scanner.nextInt();
+        double num11 = scanner.nextDouble();
         System.out.println("Enter second number:");
-        int num22 = scanner.nextInt();
-        int product = num11 * num22;
-        int quotient = num11 / num22;
+        double num22 = scanner.nextDouble();
+        double product = num11 * num22;
+        double quotient = num11 / num22;
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
-
-
 
 
         // power Function
@@ -41,7 +39,7 @@ public class Calculator {
         System.out.println("Enter the exponent number  for power calculation: ");
         double exponent = scanner.nextInt();
         double powerResult = Math.pow(base, exponent);
-        System.out.println(" The result is "+ powerResult);
+        System.out.println(" The result is " + powerResult);
 
 
         scanner.close();
