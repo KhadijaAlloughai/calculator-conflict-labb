@@ -33,8 +33,17 @@ public class Calculator {
         System.out.println("Quotient: " + quotient);
 
 
+
+
+        // power Function
+        System.out.println("Enter the base number  for power calculation: ");
+        double base = scanner.nextInt();
+        System.out.println("Enter the exponent number  for power calculation: ");
+        double exponent = scanner.nextInt();
+        double powerResult = Math.pow(base, exponent);
+        System.out.println(" The result is "+ powerResult);
+
+
         scanner.close();
-
-
     }
 }
