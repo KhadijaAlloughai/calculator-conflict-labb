@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -12,20 +12,15 @@ public class Calculator {
         System.out.println("Enter second number : ");
         int num2 = scanner.nextInt();
 
-        int sum = num1 + num2 ;
-        int difference =  num1 - num2;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
 
-        System.out.println("Sum "+ sum);
+        System.out.println("Sum " + sum);
         System.out.println("Difference " + difference);
 
 
-
-
-        System.out.println("Thats all... ");
+        System.out.println("Thats all.. ");
         System.out.println("last update..");
-
-
-
 
 
         System.out.println("Enter first number:");
@@ -36,8 +31,6 @@ public class Calculator {
         int quotient = num11 / num22;
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
-
-
 
 
         scanner.close();
